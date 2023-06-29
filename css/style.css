@@ -52,10 +52,8 @@ header {
 }
 .news {
     margin-top: 600px;
-}
-.news {
     text-align: center;
-}
+} 
 .news__ttl1 {
 }
 .news__ttl2 {
@@ -76,7 +74,7 @@ header {
     margin: 0 30px;
 }
 .about {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 .about__ttl1 {
     text-align: center;
@@ -171,11 +169,51 @@ header {
 .box3__des {
     line-height: 10px;
 }
-.blog__ttl1 {
-    width: 80vw;
-    margin: 0 200px;
+.blog {
+    margin-bottom: 50px;
 }
- .blog__ttl2 {
-    text-align: right;
-    width: 80vw;
- }
+.blog__ttl1 {
+    margin: 0 150px 10px;
+}
+.blog__ttl2 {
+    margin: 0 150px 30px;
+}
+.blog__card-wrap {
+    padding: 0 100px 0 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.blog__card {
+    width: 20vw;
+}
+.card__img {
+    position: relative;
+}
+.card__img img {
+    width: 100%;
+}
+.card__cat {
+    width: 15%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    background-color: deeppink;
+    text-align: center;
+    margin: 0;
+}
+.card__ttl {
+    width: 80%;
+    padding-left: 30px;
+}
+.card__foot {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.company__ttl1 {
+    margin: 0 150px 10px;
+}
+.company__ttl2 {
+    margin: 0 150px 10px;
+}
