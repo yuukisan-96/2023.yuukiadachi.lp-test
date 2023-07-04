@@ -1,10 +1,7 @@
- *{
-    border-top: 1px solid;
-}
 header {
     display: flex;
     justify-content: space-between;
-    padding:0 20px;
+    padding: 0 20px;
 }
 .header__ttl {
     display: block;
@@ -51,7 +48,7 @@ header {
 .top__text2 {
     font-size: 15px;
     margin-top: -20px;
-    color:gray;
+    color: gray;
 }
 .news {
     margin-top: 600px;
@@ -128,18 +125,16 @@ header {
     color: rgb(255, 0, 166);
     margin: 0 auto 20px;
     width: 70vw;
-
 }
 .service__ttl2 {
     margin: -10px auto 30px;
     width: 70vw;
-    
 }
 .service__card {
     display: grid;
     grid-template-rows: 250px 250px;
     grid-template-columns: 1fr 1fr;
-    width:70vw;
+    width: 70vw;
     margin: 0 auto;
 }
 .service__card-box1 {
@@ -242,7 +237,7 @@ header {
     top: 0;
     left: 0;
     display: inline-block;
-    color:aliceblue;
+    color: aliceblue;
     background-color: rgb(228, 6, 87);
     text-align: center;
     margin: 0;
@@ -279,7 +274,6 @@ header {
     width: 60vw;
 }
 .company__table-row {
-    
     line-height: 40px;
 }
 .company__table-header {
@@ -310,7 +304,7 @@ header {
 }
 .content__img1-inner {
     position: absolute;
-    color:aliceblue;
+    color: aliceblue;
     top: 40%;
     left: 40%;
 }
@@ -365,5 +359,5 @@ header {
     display: block;
     background-color: gainsboro;
     text-align: center;
-    margin: 50px auto;
+    margin: 50px auto 0;
 }
