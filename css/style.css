@@ -1,4 +1,4 @@
-* {
+ *{
     border-top: 1px solid;
 }
 header {
@@ -27,14 +27,14 @@ header {
     right: 0;
     width: 60vw;
 }
-.box {
+.top__box {
     position: absolute;
     left: 20vw;
     top: 5vw;
 }
 .top__ttl {
+    font-family: "Gorditas", cursive;
     font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
     color: rgb(255, 0, 166);
 }
 .top__ttl-em {
@@ -43,44 +43,64 @@ header {
 .top__text {
     font-size: 25px;
     color: rgb(255, 0, 166);
+    font-weight: bold;
 }
 .top__text-em {
     color: rgb(15, 169, 169);
 }
 .top__text2 {
-    font-size: 10px;
+    font-size: 15px;
+    margin-top: -20px;
+    color:gray;
 }
 .news {
     margin-top: 600px;
-    text-align: center;
-} 
+}
 .news__ttl1 {
+    font-family: "Gorditas", cursive;
+    font-size: large;
+    margin-left: 250px;
+    color: rgb(255, 0, 166);
 }
 .news__ttl2 {
+    font-family: "Gorditas", cursive;
+    margin-top: -10px;
+    margin-left: 250px;
 }
 .news__content {
-    display: block;
     list-style: none;
-    margin-bottom: 60px;
+    padding-left: 0;
+    margin: 0 auto 60px ;
+    text-align: center;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    width: 800px;
 }
-.content__item {
-    margin: 0 auto;
+.news__content-item {
     line-height: 60px;
     width: 800px;
-    border-bottom: 1px solid;
+    border-bottom: solid 1px;
 }
-.content__item-btn {
-    background-color: rgba(244, 8, 47, 0.995);
+.news__content-btn {
+    color: aliceblue;
+    background-color: rgb(255, 0, 166);
+    padding: 0 10px;
     margin: 0 30px;
+    border-radius: 50px;
 }
 .about {
-    margin-bottom: 50px;
+    padding: 60px 0;
+    background-color: rgb(233, 233, 235);
 }
 .about__ttl1 {
+    font-family: "Gorditas", cursive;
+    font-size: large;
+    color: rgb(255, 0, 166);
     text-align: center;
 }
 .about__ttl2 {
     text-align: center;
+    margin-top: -10px;
 }
 .about__parent {
     display: flex;
@@ -100,24 +120,29 @@ header {
     width: 30vw;
 }
 .service {
-    margin-bottom: 60px;
+    margin: 60px 0 60px;
 }
 .service__ttl1 {
-    text-align: center;
+    font-family: "Gorditas", cursive;
+    font-size: large;
+    color: rgb(255, 0, 166);
+    margin: 0 auto 20px;
+    width: 70vw;
+
 }
 .service__ttl2 {
-    text-align: center;
+    margin: -10px auto 30px;
+    width: 70vw;
+    
 }
 .service__card {
-    margin: 0 auto;
     display: grid;
     grid-template-rows: 250px 250px;
     grid-template-columns: 1fr 1fr;
-    width: 80vw;
+    width:70vw;
+    margin: 0 auto;
 }
 .service__card-box1 {
-    height: 400px;
-    width: 40vw;
     background-color: rgb(228, 6, 87);
     padding-bottom: 100px;
     grid-column: 1/2;
@@ -135,9 +160,7 @@ header {
 }
 .service__card-box2 {
     display: flex;
-    height: 250px;
-    width: 40vw;
-    background-color: rgb(228, 6, 87);
+    background-color: rgb(191, 71, 115);
     grid-column: 2/3;
     grid-row: 1/2;
 }
@@ -153,9 +176,7 @@ header {
 }
 .service__card-box3 {
     display: flex;
-    height: 250px;
-    width: 40vw;
-    background-color: rgb(228, 6, 87);
+    background-color: rgb(253, 142, 183);
     grid-column: 2/3;
     grid-row: 2/3;
 }
@@ -171,36 +192,62 @@ header {
 }
 .blog {
     margin-bottom: 50px;
+    background-color: rgb(233, 233, 235);
+    padding: 60px 0;
 }
 .blog__ttl1 {
-    margin: 0 150px 10px;
+    font-family: "Gorditas", cursive;
+    font-size: large;
+    color: rgb(255, 0, 166);
+    width: 70vw;
+    margin: 0 auto 20px;
 }
 .blog__ttl2 {
-    margin: 0 150px 30px;
+    width: 70vw;
+    margin: 0 auto 30px;
 }
 .blog__card-wrap {
-    padding: 0 100px 0 100px;
+    width: 70vw;
     display: flex;
     justify-content: space-around;
+    margin: 0 auto;
 }
 .blog__card {
     width: 20vw;
+    border-radius: 30px;
+    background-color: aliceblue;
+}
+.blog__btn {
+    display: block;
+    width: 200px;
+    text-align: center;
+    color:rgb(255, 0, 166);
+    border: solid 1px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    background-color: aliceblue;
+    text-decoration: none;
+    margin: 40px auto;
 }
 .card__img {
     position: relative;
 }
-.card__img img {
+.card__img img{
+    border-radius: 30px 30px 0 0;
     width: 100%;
 }
 .card__cat {
-    width: 15%;
+    width: 20%;
     position: absolute;
     top: 0;
     left: 0;
     display: inline-block;
-    background-color: deeppink;
+    color:aliceblue;
+    background-color: rgb(228, 6, 87);
     text-align: center;
     margin: 0;
+    padding: 5px 12px;
+    border-radius: 30px 0 0 0;
 }
 .card__ttl {
     width: 80%;
@@ -211,9 +258,112 @@ header {
     justify-content: space-between;
     padding: 0 30px;
 }
+.company {
+    margin-bottom: 50px;
+}
 .company__ttl1 {
-    margin: 0 150px 10px;
+    font-family: "Gorditas", cursive;
+    font-size: large;
+    color: rgb(255, 0, 166);
+    width: 60vw;
+    margin: 0 auto 20px;
 }
 .company__ttl2 {
-    margin: 0 150px 10px;
+    width: 60vw;
+    margin: 0 auto 30px;
+}
+.company__table {
+    border: 1px solid;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 60vw;
+}
+.company__table-row {
+    
+    line-height: 40px;
+}
+.company__table-header {
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 20vw;
+    background-color: lightgrey;
+    padding: 5px 15px;
+    text-align: left;
+}
+.company__table-date {
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 40vw;
+    padding:5px 15px;
+    text-align: left;
+}
+.content {
+    margin-bottom: 50px;
+    display: flex;
+}
+.content__img1 {
+    position: relative;
+    width: 50vw;
+}
+.content__img1-src {
+    width: 100%;
+}
+.content__img1-inner {
+    position: absolute;
+    color:aliceblue;
+    top: 40%;
+    left: 40%;
+}
+.content__img2 {
+    position: relative;
+    width: 50vw;
+}
+.content__img2-src {
+    width: 100%;
+}
+.content__img2-inner {
+    position: absolute;
+    color: aliceblue;
+    top: 40%;
+    left: 40%;
+}
+.contact__text {
+    text-align: center;
+    font-weight: bold;
+}
+.contact__line {
+    margin: 20px auto;
+    width: 2px;
+    height: 30px;
+    background-color: hotpink;
+}
+.contact__btn {
+    position: relative;
+    display: block;
+    background: linear-gradient(90deg, #f20794, #c20e53);
+    box-shadow: 0 10px #85043e;
+    width: 300px;
+    border-radius: 40px;
+    padding: 20px;
+    margin: 0 auto;
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+}
+.contact__btn::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%);
+    background: url(../img/mailicon.svg) no-repeat;
+}
+.small__foot {
+    display: block;
+    background-color: gainsboro;
+    text-align: center;
+    margin: 50px auto;
 }
